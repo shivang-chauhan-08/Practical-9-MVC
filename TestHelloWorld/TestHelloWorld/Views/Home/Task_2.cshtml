@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "Text Styling";
+}
+
+
+<br />
+<br />
+<br />
+<h1>Task - 2 :</h1>
+<p>Text Styling Demo</p>
+
+<label id="displayLabel" style="fot-size:20px"></label>
+<br />
+<br />
+
+<button class="btn" onclick="displayData()">Print Text</button>
+<button class="btn" onclick="displayBold()">Bold</button>
+<button class="btn" onclick="displayItalic()">Italic</button>
+<button class="btn" onclick="displayUnderline()">Underline</button>
+<button class="btn" onclick="reset()">Reset</button><br />
+
+
+
+<style>
+    .btn{
+        border: 2px solid black;
+        margin: 20px;
+    }
+</style>
+
+<script>
+    function displayData() {
+        var label = document.getElementById("displayLabel");
+
+        label.style.padding = "1rem";
+        label.style.border = "2px solid black";
+        label.innerText = "Hello World";
+    }
+
+    function displayBold() {
+        document.getElementById("displayLabel").style.fontWeight = "bold";
+    }
+
+    function displayItalic() {
+        document.getElementById("displayLabel").style.fontStyle = "italic";
+    }
+
+    function displayUnderline() {
+        document.getElementById("displayLabel").style.textDecoration = "underline";
+    }
+
+    function reset() {
+        var label = document.getElementById("displayLabel");
+
+        label.style.fontWeight = "normal";
+        label.style.fontStyle = "normal";
+        label.style.textDecoration = "none";
+    }
+</script>
