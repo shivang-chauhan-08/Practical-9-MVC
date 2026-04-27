@@ -1,5 +1,4 @@
 <Solution>
-  <Project Path="HelloWorld.Test/HelloWorld.Test.csproj" />
-  <Project Path="TestHelloWorld/TestHelloWorld.csproj" />
-  <Project Path="UnitTest/UnitTest.csproj" />
+  <Project Path="TestHelloWorld/TestHelloWorld.csproj" Id="5254ba32-3d54-4f83-ba2c-0b78ce5292db" />
+  <Project Path="UnitTestProject/UnitTestProject.csproj" Id="62be69c3-0bf1-4e2f-8b5d-f7e06443f5aa" />
 </Solution>

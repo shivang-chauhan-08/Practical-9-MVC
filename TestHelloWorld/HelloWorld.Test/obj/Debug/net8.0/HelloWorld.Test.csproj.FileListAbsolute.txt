@@ -106,3 +106,4 @@ C:\Users\shivang.chauhan\Desktop\Dot Net\ASP.NET MVC\Practicals\Practical - 9\Te
 C:\Users\shivang.chauhan\Desktop\Dot Net\ASP.NET MVC\Practicals\Practical - 9\TestHelloWorld\HelloWorld.Test\obj\Debug\net8.0\HelloWorld.Test.genruntimeconfig.cache
 C:\Users\shivang.chauhan\Desktop\Dot Net\ASP.NET MVC\Practicals\Practical - 9\TestHelloWorld\HelloWorld.Test\obj\Debug\net8.0\ref\HelloWorld.Test.dll
 C:\Users\shivang.chauhan\Desktop\Dot Net\ASP.NET MVC\Practicals\Practical - 9\TestHelloWorld\HelloWorld.Test\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\shivang.chauhan\Desktop\Dot Net\ASP.NET MVC\Practicals\Practical - 9\TestHelloWorld\HelloWorld.Test\obj\Debug\net8.0\HelloWorld.Test.sourcelink.json

@@ -14,7 +14,7 @@ namespace HelloWorld.Test
             var result = controller.Task_3() as ViewResult;
 
             Assert.NotNull(result);
-            Assert.Equal("Hello World", result.ViewBag.Message);
+            Assert.Equal("Hello World", result.ViewData["Message"]);
         }
     }
 }
